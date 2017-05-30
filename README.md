@@ -9,7 +9,15 @@ cd LearnMore
 ```
 
 ### Creating a new local branch
+Get latest from remote repo:
+```
+git checkout master
+git pull
+```
+
 To create a new local branch: `git checkout -b <branch name>`
+
+Note: Try and branch from the master branch, this will create your new branch from the master branch.
 
 Example: `git checkout -b example_branch`
 
@@ -26,6 +34,10 @@ Optional steps:
   * `git status`
  * Use git diff to review specific changes
   * `git diff`
+* Get latest from the repo
+ * `git pull`
+* Merge in master branch
+ * `git merge master`
 
 If you are commiting all your changes: `git commit -am <commit message>`
 
