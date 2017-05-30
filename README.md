@@ -32,12 +32,12 @@ Optional steps:
 
 * Use git status to check what files have changed
   * `git status`
- * Use git diff to review specific changes
+* Use git diff to review specific changes
   * `git diff`
 * Get latest from the repo
- * `git pull`
+  * `git pull`
 * Merge in master branch
- * `git merge master`
+  * `git merge master`
 
 If you are commiting all your changes: `git commit -am <commit message>`
 
